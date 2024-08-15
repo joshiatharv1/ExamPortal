@@ -22,9 +22,8 @@ public class Role {
     public void setUserRoles(Set<UserRole> userRoles) {
         this.userRoles = userRoles;
     }
-//    public Role{
-//
-//    }
+    public Role(){
+    }
 
     public Role(Long roleId, String roleName) {
         this.roleId = roleId;

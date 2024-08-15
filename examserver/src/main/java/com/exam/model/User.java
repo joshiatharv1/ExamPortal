@@ -47,9 +47,8 @@ public class User {
     @JsonIgnore
     private Set<UserRole> userRoles= new HashSet<>();
 
-//    public User{
-//
-//    }
+    public User(){
+    }
 
     public long getId() {
         return id;
@@ -113,5 +112,9 @@ public class User {
 
     public void setEnabled(boolean enabled) {
         this.enabled = enabled;
+    }
+
+    public Set<UserRole> getUserRoles() {
+        return userRoles;
     }
 }
